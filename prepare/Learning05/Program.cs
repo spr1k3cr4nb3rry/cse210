@@ -1,9 +1,17 @@
 using System;
 
-class Program
-{
+class Rectangle {
+
+}
+
+class Circle {
+
+}
+
+class Program {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Learning05 World!");
+        Shape newShape = new Shape("red");
+        Console.WriteLine(newShape.Color);
     }
 }
