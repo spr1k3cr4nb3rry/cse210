@@ -1,13 +1,5 @@
 using System;
 
-class Rectangle {
-
-}
-
-class Circle {
-
-}
-
 class Program {
     static void Main(string[] args)
     {
