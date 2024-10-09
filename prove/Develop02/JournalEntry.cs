@@ -13,6 +13,6 @@ public class JournalEntry
 
     public void DisplayEntry()
     {
-        Console.WriteLine($"{Date.ToShortDateString()} - {Prompt}\n{Response}\n");
+        Console.WriteLine($"Date: {Date.ToShortDateString()} - Prompt: {Prompt}\n{Response}\n");
     }
 }

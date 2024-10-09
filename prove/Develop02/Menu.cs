@@ -11,6 +11,7 @@ class Menu
 
     public void DisplayMenu()
     {
+        Console.WriteLine("Welcome to the Journal Program!");
         while (true)
         {
             Console.WriteLine("Please select one of the following choices:");
@@ -26,19 +27,15 @@ class Menu
             switch (choice)
             {
                 case "1":
-                    Console.WriteLine();
                     _journal.AddNewEntry();
                     break;
                 case "2":
-                    Console.WriteLine();
                     _journal.DisplayAllEntries();
                     break;
                 case "3":
-                    Console.WriteLine();
                     Load();
                     break;
                 case "4":
-                    Console.WriteLine();
                     Save();
                     break;
                 case "5":
@@ -53,14 +50,14 @@ class Menu
 
     public void Load()
     {
-        Console.Write("Which file would you like to load? ");
+        Console.Write("What is the filename? ");
         string filename = Console.ReadLine();
         _journal.ReadFromFile(filename);
     }
 
     public void Save()
     {
-        Console.Write("Which file would you like to save your data to? ");
+        Console.Write("What is the filename? ");
         string filename = Console.ReadLine();
         _journal.WriteToFile(filename);
     }
