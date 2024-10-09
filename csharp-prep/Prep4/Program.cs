@@ -1,3 +1,8 @@
+/* 
+   Name: Izzie Vazquez
+   Assignment Name: Learning Activity - C# Prep 4
+   Assignment Description: 
+*/
 using System;
 
 class Program
