@@ -1,5 +1,5 @@
 # cse210-student-template
-Izzie Vazquez - CSE 210 Section A2 - Fall 2024
+Izzie Vazquez - CSE 210 Section 1 - Spring 2025
 
 This repository contains the starter code for many different projects. They are arranged as follows:
 
